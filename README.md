@@ -24,7 +24,7 @@ SOFTWARE AND WEB TECHNOLOGIES USED IN PROJECT -
 	Code Editor             :   Visual Studio Code
 
             IBM cloud Services      :  Ibm Watson studio,Machine Learning,Ibm cloud storage
-PROJECT LINK (GITHUB REPOSITORY URL) : https://github.com/smartinternz02/SBSPS-Challenge-8723-Food-Demand-Forecasting-for-Food-Delivery-Company-using-IBM-Cloud
+PROJECT LINK (GITHUB REPOSITORY URL) : https://github.com/badfreakout/FRT-fooddemand
 Steps to run the Project:
 
 ->Open command prompt ->Set path to project directory ->Run the command: python app.py ->Now web application opens in default browser
