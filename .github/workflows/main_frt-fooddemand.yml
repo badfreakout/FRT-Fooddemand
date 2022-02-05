@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'frt-fooddemand'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5B1B111A9E774BA59B961AA34B08A3E3 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9B592A34CF904F82B40683FA2728D018 }}
