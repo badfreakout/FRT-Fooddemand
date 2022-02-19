@@ -1,6 +1,6 @@
 # FRT-fooddemand
 
-1.PROJECT TITTLE: Food Demand Forecasting for Food Delivery Company using IBM Cloud
+1.PROJECT TITTLE: Food Demand Forecasting for Food Delivery Company using Azure Cloud
 
 2.PROBLEM STATEMENT: The task is to predict the demand of raw materials at food delivery service for the next 10 weeks so that the inventory at warehouse is utilized efficiently
 
@@ -11,7 +11,7 @@ A food delivery service has to deal with a lot of perishable raw materials which
 ABSTRACT
 The main aim of this project is to create an appropriate machine learning model to forecast then number of orders to gather raw materials for next ten weeks. To achieve this, we should know the information about of fulfilment center like area, city etc., and meal information like category of food sub category of food price of the food or discount in particular week. By using this data, we can use any classification algorithm to forecast the quantity for 10 weeks. A web application is built which is integrated with the model built.
 
-The main idea of solving the problem is to identify the trends in the data collected and and analyse to forecast the demand. i.e using ibm machine learning services i have deployed a model using python.
+The main idea of solving the problem is to identify the trends in the data collected and and analyse to forecast the demand. i.e using Azure machine learning services i have deployed a model using python.
 
 image6
 
@@ -21,12 +21,8 @@ SOFTWARE AND WEB TECHNOLOGIES USED IN PROJECT -
 
 	Web Technologies	:   HTML5, CSS3,Flask-Python
 	
-	Code Editor             :   Visual Studio Code
+	Code Editor             :   Jupyter Notebook
 
-            IBM cloud Services      :  Ibm Watson studio,Machine Learning,Ibm cloud storage
+        Azure cloud Services      :  Azure Machine learning studio, Azure storage, Azure virtual Machines
 PROJECT LINK (GITHUB REPOSITORY URL) : https://github.com/badfreakout/FRT-fooddemand
-Steps to run the Project:
-
-->Open command prompt ->Set path to project directory ->Run the command: python app.py ->Now web application opens in default browser
-
-Screenshot (27) Screenshot (28)
+PROJECT DEMO VIDEO                   :
