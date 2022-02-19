@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1444269.0,
+    "week": 144.0,
+    "center_id": 106.0,
+    "meal_id": 1754.0,
+    "checkout_price": 292.03,
+    "base_price": 291.03,
+    "emailer_for_promotion": 0.0,
+    "homepage_featured": 0.0,
+    "num_orders": 460.0
+  },
+  {
+    "id": 1332025.0,
+    "week": 67.0,
+    "center_id": 101.0,
+    "meal_id": 2664.0,
+    "checkout_price": 334.71,
+    "base_price": 333.71,
+    "emailer_for_promotion": 0.0,
+    "homepage_featured": 0.0,
+    "num_orders": 500.0
+  },
+  {
+    "id": 1065501.0,
+    "week": 11.0,
+    "center_id": 61.0,
+    "meal_id": 2760.0,
+    "checkout_price": 233.83,
+    "base_price": 231.83,
+    "emailer_for_promotion": 0.0,
+    "homepage_featured": 0.0,
+    "num_orders": 82.0
+  }
+]
