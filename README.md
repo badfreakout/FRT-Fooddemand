@@ -13,7 +13,8 @@ The main aim of this project is to create an appropriate machine learning model 
 
 The main idea of solving the problem is to identify the trends in the data collected and and analyse to forecast the demand. i.e using Azure machine learning services i have deployed a model using python.
 
-image6
+![image6](https://user-images.githubusercontent.com/85010501/154800475-f3c51413-53ab-43ef-b545-1f15cb043ae4.png)
+
 
 SOFTWARE AND WEB TECHNOLOGIES USED IN PROJECT -
 
@@ -27,3 +28,9 @@ SOFTWARE AND WEB TECHNOLOGIES USED IN PROJECT -
 PROJECT LINK (GITHUB REPOSITORY URL) : https://github.com/badfreakout/FRT-fooddemand
 
 PROJECT DEMO URL                : https://youtu.be/vF2KHh2FPj8
+
+
+
+
+
+NOTE: I have exahusted all my Azure credits hence i have deployed ML model and demonstrated on video also i have made a web app to predict the values but unable to host on Azure web app services due to lack of Azure credits that's the reason i have shown web app runned locally on my system.
