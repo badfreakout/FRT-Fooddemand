@@ -35,3 +35,36 @@ def run(data):
         test_data=DataTable.from_dfd(data_frame_directory),
         append_or_result_only=True)
     return json.dumps({"result": result.data_frame.values.tolist()}
+                      
+                      
+endpoint = 'http://e4b10aeb-474a-4fc2-b275-846337b3ab01.centralindia.azurecontainer.io/score' #Replace with your endpoint
+key = 'zrkbjURc2NK5zIdakgUdNEdRHPBhA4U6' #Replace with your key
+
+import urllib.request
+import json
+import os
+
+data ={"input_data":[{"field": [['homepage_featured', 'emailer_for_promotion', 'op_area', 'cuisine',
+       'city_code', 'region_code', 'category']],"values": [input_features ]}]}
+    
+
+body = str.encode(json.dumps(data))
+
+
+headers = {'Content-Type':'application/json', 'Authorization':('Bearer '+ key)}
+
+req = urllib.request.Request(endpoint, body, headers)
+
+try:
+    response = urllib.request.urlopen(req)
+    result = response.read()
+    json_result = json.loads(result)
+    print('Final Prediction Result',predictions['predictions'][0]['values'][0][0])
+    pred = int(predictions['predictions'][0]['values'][0][0])
+    print(pred)
+except urllib.error.HTTPError as error:
+    print("The request failed with status code: " + str(error.code))
+
+    # Print the headers to help debug
+    print(error.info())
+    print(json.loads(error.read().decode("utf8", 'ignore')))
