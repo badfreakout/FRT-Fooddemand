@@ -25,4 +25,4 @@ SOFTWARE AND WEB TECHNOLOGIES USED IN PROJECT -
 
         Azure cloud Services      :  Azure Machine learning studio, Azure storage, Azure virtual Machines
 PROJECT LINK (GITHUB REPOSITORY URL) : https://github.com/badfreakout/FRT-fooddemand
-PROJECT DEMO VIDEO                   :
+PROJECT DEMO VIDEO                   : https://youtu.be/vF2KHh2FPj8
